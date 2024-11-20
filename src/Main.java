@@ -1,5 +1,4 @@
-import ejercicios.Exercise_1;
-import ejercicios.Exercise_2;
+import ejercicios.*;
 import utils.Menu;
 import utils.ScannerUtils;
 
@@ -39,6 +38,18 @@ public class Main {
                 runExerciseMsg(exerciseNum);
                 Exercise_2.avgNumbersInEvenPositions();
                 break;
+            case 3:
+                runExerciseMsg(exerciseNum);
+                Exercise_3.studentsGroupNotes();
+            case 4:
+                runExerciseMsg(exerciseNum);
+                Exercise_4.evenNumbersArray();
+            case 5:
+                runExerciseMsg(exerciseNum);
+                Exercise_5.positiveNegativeNumbers();
+            case 6:
+                runExerciseMsg(exerciseNum);
+                Exercise_6.positiveNegativeAvg();
             default:
                 System.out.println("Undefined exercise.");
                 break;

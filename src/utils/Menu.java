@@ -9,10 +9,10 @@ public class Menu {
                 Select an exercise:
                 1.  Average 10 numbers
                 2.  Average 10 numbers (even positions)
-                3.  
-                4.  
-                5.  
-                6.  
+                3.  Student Group Notes
+                4.  Even Numbers
+                5.  Positives Negatives, Zeros
+                6.  Positives Negatives Averages
                 7.  
                 8.  
                 9.  
