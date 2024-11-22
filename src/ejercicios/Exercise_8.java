@@ -6,20 +6,21 @@ public class Exercise_8 {
 
     public static void employeeSalary() {
         String[] names = new String[20];
-        int[] salaries = new int[20];
+        double[] salary = new double[20];
         String higherName = "";
-        int higherSalary = 0;
+        double higherSalary = Double.MIN_VALUE;
 
         for (int i = 0; i < names.length; i++) {
-            System.out.print("Enter employee " + (i + 1) + " name: ");
-            String name = ScannerUtils.getScanner().nextLine();
+            System.out.printf("Enter the name of employee %d: ", i + 1);
+            names[i] = ScannerUtils.getScanner().nextLine();
 
-            System.out.print("Enter employee " + (i + 1) + " salary: ");
-            int salary = ScannerUtils.readInt();
+            System.out.printf("Enter the salary of employee %d: ", i + 1);
+            salary[i] = ScannerUtils.readDouble();
 
-            if (salary > higherSalary) {
-                higherSalary = salary;
-                higherName = name;
+            // Check higher salary
+            if (salary[i] > higherSalary) {
+                higherSalary = salary[i];
+                higherName = names[i];
             }
         }
 
