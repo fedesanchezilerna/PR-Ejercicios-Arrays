@@ -41,15 +41,43 @@ public class Main {
             case 3:
                 runExerciseMsg(exerciseNum);
                 Exercise_3.studentsGroupNotes();
+                break;
             case 4:
                 runExerciseMsg(exerciseNum);
                 Exercise_4.evenNumbersArray();
+                break;
             case 5:
                 runExerciseMsg(exerciseNum);
                 Exercise_5.positiveNegativeNumbers();
+                break;
             case 6:
                 runExerciseMsg(exerciseNum);
                 Exercise_6.positiveNegativeAvg();
+                break;
+            case 7:
+                runExerciseMsg(exerciseNum);
+                Exercise_7.avgHeight();
+                break;
+            case 8:
+                runExerciseMsg(exerciseNum);
+                Exercise_8.employeeSalary();
+                break;
+            case 9:
+                runExerciseMsg(exerciseNum);
+                Exercise_9.matrixDisplay();
+                break;
+            case 10:
+                runExerciseMsg(exerciseNum);
+                Exercise_10.randomNumbersMatrix();
+                break;
+            case 11:
+                runExerciseMsg(exerciseNum);
+                Exercise_11.variableMatrix();
+                break;
+            case 12:
+                runExerciseMsg(exerciseNum);
+                Exercise_12.matrixNxM();
+                break;
             default:
                 System.out.println("Undefined exercise.");
                 break;

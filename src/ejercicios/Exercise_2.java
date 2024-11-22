@@ -8,9 +8,9 @@ public class Exercise_2 {
         int[] numbers = new int[10];
         int addition = 0;
 
-        System.out.println("Enter 10 numbers: ");
+        System.out.print("Enter 10 numbers: ");
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Number " + (i + 1) + ": ");
+            System.out.print("Number " + (i + 1) + ": ");
             numbers[i] = ScannerUtils.readInt();
 
             // Addition only in even positions

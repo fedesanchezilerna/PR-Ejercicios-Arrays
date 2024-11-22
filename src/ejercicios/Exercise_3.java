@@ -14,7 +14,7 @@ public class Exercise_3 {
 
         // Set student notes
         for (int i = 0; i < notes.length; i++) {
-            System.out.print("Enter student " + (i + 1) + "note: ");
+            System.out.print("Enter student " + (i + 1) + " note: ");
             notes[i] = ScannerUtils.readDouble();
             addition += notes[i];
         }
